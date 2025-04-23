@@ -57,7 +57,7 @@ def preprocess_text(text):
 @st.cache_resource
 def load_distilbert_model():
     try:
-        model_path = "Bazeet/streamlit-financial-model"
+        model_path = "Beezy001/streamlit-financial-model"
         model = TFAutoModelForSequenceClassification.from_pretrained(model_path)
         tokenizer = AutoTokenizer.from_pretrained(model_path)
         return model, tokenizer
