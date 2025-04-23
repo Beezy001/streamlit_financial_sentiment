@@ -2,6 +2,6 @@ streamlit
 pandas
 numpy
 nltk
-transformers
 tensorflow
 tf-keras
+transformers==4.51.3
