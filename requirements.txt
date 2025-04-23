@@ -4,4 +4,4 @@ numpy
 nltk
 tensorflow
 tf-keras
-transformers==4.51.3
+transformers
